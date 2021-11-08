@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bgimage {
+    position: relative;
+    background: url(https://www.himachal-tourism-gov.in/images/banner-work.jpeg) no-repeat left top;
+    background-size: 100% 100%;
+    height: auto;
+}
+.header_number{
+    float: right;
+    margin-top: 13px;
+}
+.header_number ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.header_number ul li a {
+    color: #6bca4e;
+    text-decoration: none;
+}
+ .header_number ul li {
+    padding: 0 0 5px 35px;
+    margin: 0;
+    list-style-type: none;
+    font-size: 23px;
+    position: relative;
+}
+.header_number .fa-phone-alt{
+    color: #ffa500;
+    font-size: 20px;
+}
+.header-tel .fa-phone-volume{
+    color: #ffa500;
+    font-size: 30px;
+    float: left;
+}
+.manali_offer img{
+    width: 71%;
+    margin-top: 24px;
+    float: left;
+}
+
+.telmain{
+    position: relative;
+    top: 10px;
+    left: 71%;
+    width: 54%;
+}
+.header-tel h4 a{
+    font-size: 20px;
+    color: #6bca4e;
+}
+.header-tel h4 a:hover{
+   text-decoration: none;
+    color: #6bca4e;
+}
+.blinking {
+    animation: blink 1s linear infinite;
+    font-weight: 700;
+    text-align: center;
+}
+.put-details, .blinkarea{
+    text-align: center;
+}
+.want-details{
+    background-color: #fff;
+    border-radius: 22px 0 22px 0;
+}
+.blinkarea{
+    position: relative;
+    background-color: #6bca4e;
+    color: #fff;
+    border-radius: 22px 0 22px 0;
+    padding: 8px 0 1px 0;
+}
+.blinkarea p{
+    text-align: center;
+}
+.blinkarea::after{
+    position: absolute;
+    content: "";
+    width: 0; 
+    height: 0; 
+    bottom: -14px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;  
+    border-top: 15px solid #6bca4e;
+}
+.put-details input{
+    margin: 20px 0 0 0;
+    padding: 7px 0;
+    width: 66%;
+    border-radius: 7px 0 7px 0;
+    border: 1px solid gray;
+}
+.put-details input:focus{
+    outline: none;
+}
+.blinkarea h3{
+    animation: blink 1s ease-in infinite;
+    margin: 0;
+}
+.choose_form{
+    border-radius: 7px 0 7px 0;
+    margin: 20px 0 0 0;
+    padding: 7px 0;
+    width: 66%;
+
+}
+.put-details{
+    margin-top: 29px;
+}
+.put-details button {
+    margin:32px 0 13px 0;
+    width: 150px;
+    padding: 7px 0;
+    border: 0;
+    color: white;
+    border: 1px solid gray;
+    background-color: #6bca4e;
+    border-radius: 7px 0 7px 0;
+}
+.put-details button:focus{
+    outline: none;
+}
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* sixgroup******************************** */
+  .sixgroup {
+    background: #0f4174;
+    width: 100%;
+    padding:0;
+    text-align: center;
+    color: white;
+}
+
+.group_one p{
+    margin-top: 15px;
+    text-align: center;
+}
+.experience h1{
+    font-size: 30px;
+    color: #539019;
+    margin: 15px 0;
+}
+.experience h1{
+    text-align: center !important;
+ 
+}
+.experience p{
+    text-align: center !important;
+ 
+}
+
+/* package************************** */
+.tour_package img{
+    width: 100%;
+    border-radius: 7px 0 7px 0;
+    transition: ease-in 0.3s;
+    height: 234px;
+}
+.tour_package img:hover{
+    transform: scale(1.04541); 
+}
+.headindtourpackage h4{
+    font-size: 22px;
+    margin-top: 12px;
+}
+.headindtourpackage p{
+    font-size: 17px;
+
+}
+.headindtourpackage h4, p{
+    font-weight: 400;
+    text-align: left;
+}
+.headindtourpackage span{
+    color: #6bca4e;
+    font-weight: normal;
+}
+
+.provide_items  li{
+    list-style: none ;
+    float: left;
+    text-align: center;
+    padding: 9px 0;
+    width: 18%;
+}
+.provide_items li.active {
+    color: #a3a3a3 !important;
+}
+.provide_items li.active p{
+    color: #a3a3a3 !important;
+}
+.provide_items p{
+    color: #6bca4e;
+    font-size: 12px;
+    text-align: center;
+}
+.provide_items .fas{
+    font-size: 20px;
+}
+.provide_items .fas:hover{
+    transform: scale(1.04541); 
+    transition: .4s;
+
+}
+.provide_items{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    min-height: 76px;
+    margin-bottom: 0;
+}
+.inculdes {
+    margin: 24px 0;
+}
+.inculdes li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+.inculdes .fas{
+    margin-right: 10px;
+    color: 	#ffa500;
+}
+.inculdes a{
+    color: #6bca4e;
+    float: right;
+}
+.inculdes a:hover{
+    color: #6bca4e;
+}
+.price{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    float: left;
+    width: 100%;
+}
+.price h5, p{
+    margin-bottom: 0 !important;
+}
+.price_text {
+    margin: 12px 0;
+    float: left;
+}
+.price_text h5{
+  color: #000;
+}
+.price button{
+    margin: 16px 0 13px 0;
+    padding: 10px 20px;
+    border: 0;
+    float: right;
+    color: white;
+    background-color: #6bca4e;
+}
+.price button:hover{
+    transition: ease-out .6s;
+    width: 170px;
+}
+.price button:focus{
+outline: none;
+}
+
+hr {
+    border-top: 1px solid gray !important;
+}
+/* googlerating************************************************************* */
+.googlerating span{
+    color:#fc5b62;
+}
+.googlerating h2{
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+.bg_effect {
+    background-image: url(https://images.unsplash.com/photo-1521489189730-6fc6e323ef3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80);
+    background-attachment: fixed;
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-size: cover;
+}
+.bg_effect h1{
+    color: white;
+}
+.bg_effect a {
+    background: #6bca4e;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.bg_effect a:hover  {
+    color: white;
+    text-decoration: none;
+}
+
+/* amazing-------------------- */
+.amazing h2{
+    color: #6bca4e;
+    font-size: 46px;
+    font-weight: bold;
+}
+.amazing h1{
+
+    font-weight: normal;
+}
+.save_time {
+    margin: 50px 0;
+    height: 70%;
+    padding: 0 20px;
+}
+.save_time img{
+    width: 44%;
+}
+.save_time p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.save_time h3{
+    color: #6bca4e;
+    font-size: 27px;
+}
+
+.customized  {
+    background: #6bca4e;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.customized:hover  {
+    color: white;
+    text-decoration: none;
+}
+/* footer****************** */
+.footerone h5{
+    font-size: 18px;
+}
+.footerbg{
+    background-color: #323232;
+}
+.we_accept, h5{
+    color: white;
+}
+.customer_sup img{
+    width: 100%;
+    margin-top: 40px;
+}
+.we_accept, .fa-phone-alt, .fa-mobile-alt{
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+
+.footercall li {
+    padding: 0 0 0 40px;
+    margin: 0 0 10px 0;
+    list-style-type: none;
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+}
+.footercall li a {
+    color: #fff;
+}
+.footercall li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.fa-phone-alt, .fa-mobile-alt{
+    margin-right: 10px;
+    color: #ffa500;
+
+}
+
+/* footer second */
+.most_sellinh h5{
+    font-size: 18px;
+}
+.most_sellinh ul li {
+    list-style: none;
+    color: white;
+}
+.most_sellinh ul {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.footeraddress h5{
+    font-size: 18px;
+}
+.footeraddress ul li{
+    list-style: none;
+    color: white;
+}
+.footeraddress ul {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.copyright{
+    background-color: #272727;
+    color: white;
+}
+.copyright p{
+   text-align: center;
+   font-size: 11px;
+   padding: 15px 70px;
+}
+.copyright h5{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+ }
+
+ /* forgot */
+
+
+
+ /* media querry************************************************ */
+
+ @media screen and (max-width: 376px) {
+
+    .bg_effect a{
+        font-size: 10px !important;
+
+    }
+    .price button {
+        margin: 16px 0 13px 30px !important;
+    }
+  }
+
+ @media screen and (max-width: 577px) {
+    .group_one {
+      margin-bottom:20px;
+    }
+    .bg_effect a{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+  }
+  @media screen and (max-width: 991px) { 
+    .price button {
+        margin: 5% 20%!important;
+        padding: 10px 8px !important;
+     
+    }
+    .sixgroup{
+        display: none;
+    }
+    .experience{
+        display: none;
+    }
+}
+
+  @media screen and (max-width: 767px) {
+    .telmain{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .price button {
+        margin: 5% 0% !important;
+        padding: 10px 8px;
+     
+    }
+    .footercall li {
+        font-size: 14px;
+    }
+    .bg_effect h1{
+       display:none;
+    }
+    .amazing {
+        display: none;
+    }
+    .header_number ul li {
+        padding: 0 ;
+
+    }
+    .header_number{
+        float: none;
+    }
+    .header_number .fa-phone-alt{
+        float: revert;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .price button {
+        margin: 16px -0 13px 0;
+        padding: 10px 8px;
+     
+    }
+
+  
+  }
+  .whatsappchatbot img {
+    box-shadow: 0px 0 20px -5px rgb(0 0 0 / 28%);
+    position: fixed;
+    z-index: 999;
+    bottom: 5%;
+    right: 30px;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 17px;   
+  }
+
+
+
+ 
